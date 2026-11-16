@@ -1,0 +1,85 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Comfety home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - text: comfety
+      - generic [ref=e8]: .
+    - generic [ref=e9]:
+      - generic [ref=e10]: Conversation mode
+      - button "Help and installation" [ref=e12] [cursor=pointer]
+      - button "Settings" [ref=e16] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: YOUR WORDS. YOUR WAY.
+      - heading "A little help being heard." [level=1] [ref=e24]
+      - paragraph [ref=e25]: Listen, type, and keep the conversation going.
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - heading "The conversation" [level=2] [ref=e33]
+            - button "Clear" [disabled] [ref=e34]
+          - log "Conversation transcript" [ref=e38]:
+            - generic [ref=e39]:
+              - heading "Every conversation starts here." [level=3] [ref=e48]
+              - paragraph [ref=e49]: Tap “Start listening” to see the other person’s words appear here.
+              - generic [ref=e50]: English & اردو
+          - generic [ref=e51]:
+            - combobox "Listening language" [ref=e54] [cursor=pointer]:
+              - option "English" [selected]
+              - option "اردو · Urdu"
+            - button "Start listening" [ref=e55] [cursor=pointer]
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - heading "Your reply" [level=2] [ref=e65]
+            - generic [ref=e66]: Type it. We’ll say it.
+          - generic [ref=e67]: Type your reply
+          - textbox "Type your reply" [ref=e68]:
+            - /placeholder: What would you like to say?
+          - generic [ref=e69]:
+            - button "Device voice" [ref=e70] [cursor=pointer]
+            - button "Speak reply" [disabled] [ref=e78]
+        - paragraph [ref=e83]: Your conversation stays on this page. No history is saved.
+      - complementary [ref=e87]:
+        - generic [ref=e88]:
+          - heading "A few words, ready." [level=2] [ref=e92]
+          - button "Add saved phrase" [ref=e93] [cursor=pointer]
+        - paragraph [ref=e95]: Little shortcuts for everyday moments.
+        - generic "Phrase category" [ref=e96]:
+          - button "All phrases" [pressed] [ref=e97] [cursor=pointer]
+          - button "Everyday" [ref=e98] [cursor=pointer]
+          - button "Help" [ref=e99] [cursor=pointer]
+          - button "Out & about" [ref=e100] [cursor=pointer]
+        - generic [ref=e101]:
+          - button "Hello! It’s nice to meet you." [ref=e103] [cursor=pointer]:
+            - text: Hello! It’s nice to meet you.
+            - generic [aria-hidden] [ref=e104]: ↗
+          - button "Please give me a moment to type." [ref=e106] [cursor=pointer]:
+            - text: Please give me a moment to type.
+            - generic [aria-hidden] [ref=e107]: ↗
+          - button "Could you please repeat that?" [ref=e109] [cursor=pointer]:
+            - text: Could you please repeat that?
+            - generic [aria-hidden] [ref=e110]: ↗
+          - button "Thank you for your patience." [ref=e112] [cursor=pointer]:
+            - text: Thank you for your patience.
+            - generic [aria-hidden] [ref=e113]: ↗
+          - button "مجھے مدد کی ضرورت ہے۔" [ref=e115] [cursor=pointer]:
+            - text: مجھے مدد کی ضرورت ہے۔
+            - generic [aria-hidden] [ref=e116]: ↗
+          - button "براہ کرم آہستہ بولیں۔" [ref=e118] [cursor=pointer]:
+            - text: براہ کرم آہستہ بولیں۔
+            - generic [aria-hidden] [ref=e119]: ↗
+          - button "I need to see a doctor, please." [ref=e121] [cursor=pointer]:
+            - text: I need to see a doctor, please.
+            - generic [aria-hidden] [ref=e122]: ↗
+          - button "How much does this cost?" [ref=e124] [cursor=pointer]:
+            - text: How much does this cost?
+            - generic [aria-hidden] [ref=e125]: ↗
+        - button "Add your own phrase" [ref=e126] [cursor=pointer]
+        - button "Manage phrases" [ref=e128] [cursor=pointer]
+        - paragraph [ref=e136]:
+          - text: A familiar phrase can go a long way.
+          - strong [ref=e137]: Make these your own.
+    - generic [ref=e138]:
+      - generic [ref=e139]: Ready when you are
+      - generic [ref=e141]: Made for connection

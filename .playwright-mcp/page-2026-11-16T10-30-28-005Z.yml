@@ -1,0 +1,14 @@
+- main [ref=f4e2]:
+  - link [ref=f4e3] [cursor=pointer]:
+    - /url: https://chatgpt.com/
+    - img "ChatGPT" [ref=f4e4]
+  - generic [ref=f4e5]:
+    - heading "Log in to access" [level=1] [ref=f4e7]
+    - generic [ref=f4e8]:
+      - link "Continue with ChatGPT" [ref=f4e9] [cursor=pointer]:
+        - /url: https://comfety-conversation-shamveel.airypearl34.chatgpt.site/signin-with-chatgpt?return_to=%2F&sites_gate_view_id=37f9e7fb-1cf2-45fa-957e-ebd104f1fb81
+      - generic [ref=f4e11]:
+        - text: This site uses ChatGPT to securely log you in. You can review OpenAI’s
+        - link "Privacy Policy" [ref=f4e12] [cursor=pointer]:
+          - /url: https://openai.com/policies/privacy-policy
+        - text: .
